@@ -24,4 +24,28 @@ Commencez par ouvrir le terminal. Le moyen le plus simple est d'appuyer simultan
 Le plus simple est d'exécuter un script python. Pour cela, tappez : "python3". Une nouvelle interface s'offre à vous. Écrivez simplement : "print('Hello World !')" puis tapez Entrée.
 Le message "Hello World !" s'affiche. Vous avez réussi !
 
+Étape 5:
+
+Vous allez installer Visual Studio Code.
+Il faut tout d'abord aller sur internet et installer la version ".deb". Ensuite, il faut ouvrir l'emplacement du fichier et le replacer si besoin (il se trouve automatiquement dans "Téléchargements"). 
+Ensuite, déplacez-vous dans le bon répertoire. Tapez la commande "sudo apt install ./nom_fichier.deb" (tapez votre mot de passe) puis inscrivez la commande "sudo dpkg -i nom_fichier.deb". 
+Enfin, écrivez "code", Visual Studio Code se lancera
+
+Étape 5:
+
 Passons à l'installation de Docker.
+Pour ce faire; il faut installer _curl_. Faites "sudo apt install curl". Il s'installera; maintenant, allez sur le site https://get.docker.com/. Les premières lignes où il y a des commandes sont pour installer Docker (elles se situent entre les deux premières lignes de "="). Saisissez-les, vous réussirez. Une fois cela fait, tapez dans le terminal "sudo docker run hello-world". S'il n'y a pas d'erreurs, vous avez réussi à exécuter Docker. BRAVO !
+
+Étape 6:
+
+Pour finir, nous allons installer java et compiler un fichier.
+Commencez par écrire "sudo apt update".
+Il faudra regarder les différentes versions de java. Pour cela: tapez "java -version" (rien de plus simple). Nous allons prendre la version basique c'est à dire : default-jre.
+Inscrivez la commande "sudo apt install default-jre".
+Ensuite la commande "sudo apt install default-jdk".
+Tapez "nano" pour créer un script en java. Écrivez quelque chose de très simple.
+Nommez votre fichier avec l'extension ".java".
+
+Vous pouvez inscrire votre dernière commande : "java nom_fichier".
+Tapez "Entrée".
+Vous avez terminé !!
